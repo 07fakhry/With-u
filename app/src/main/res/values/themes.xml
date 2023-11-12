@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Singuplogin" parent="Theme.Material3.DayNight.NoActionBar">
+
+         <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/ROUGE</item>
+
+
+    </style>
+
+    <style name="Theme.Singuplogin" parent="Base.Theme.Singuplogin" />
+</resources>

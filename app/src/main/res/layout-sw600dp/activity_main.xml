@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagehk1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonMedicalDirectory"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="100dp"
+        android:text="Répertoire médical"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/buttonMedicalReminder"
+        android:layout_width="200dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="50dp"
+        android:text="Medical Reminder"
+        android:textSize="25dp"
+        android:layout_below="@id/buttonMedicalDirectory"/>
+    <Button
+        android:id="@+id/buttonPeepx"
+        android:layout_width="200dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/peeps"
+        android:textSize="25dp"
+        android:layout_toRightOf="@id/buttonMedicalDirectory"/>
+    <Button
+        android:id="@+id/buttoncallPeepx"
+        android:layout_width="200dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="Call Peeps"
+        android:textSize="25dp"
+        android:layout_below="@id/buttonMedicalDirectory"
+        android:layout_toRightOf="@id/buttonMedicalDirectory"/>
+
+    <Button
+        android:id="@+id/buttonEmergency"
+        android:layout_width="200dp"
+        android:layout_height="106dp"
+        android:layout_below="@id/buttonMedicalReminder"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="47dp"
+        android:text="Emergency"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/buttonsajel"
+        android:layout_width="200dp"
+        android:layout_height="106dp"
+        android:layout_below="@id/buttoncallPeepx"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Note "
+        android:textSize="25dp"
+        android:layout_toRightOf="@id/buttonEmergency"/>
+    <Button
+        android:id="@+id/jeux"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:text="Jeux"
+        android:textSize="25dp"
+        android:layout_below="@id/buttonEmergency"/>
+
+
+
+</RelativeLayout>

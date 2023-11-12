@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "418812503320",
+    "project_id": "singuplogin-4e072",
+    "storage_bucket": "singuplogin-4e072.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418812503320:android:5cc7fa9204acde5f906a6d",
+        "android_client_info": {
+          "package_name": "com.example.singuplogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418812503320-fsn8oeg79dv9lu8gh10t8d7msqhlk0fh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqYyVZllKFBDQccQtmT9aQIoxE4z9UCuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418812503320-fsn8oeg79dv9lu8gh10t8d7msqhlk0fh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewContactName" type="id" />
+    <item name="textViewContactSpecialty" type="id" />
+    <item name="textViewContactNumber" type="id" />
+</resources>
