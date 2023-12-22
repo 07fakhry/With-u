@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">WITH u</string>
     <string name="peeps">Peeps</string>
+    <string name="Rm">Répertoire</string>
+    <string name="Peep">Peeps</string>
+    <string name="CPeep">Call Peeps</string>
+    <string name="Mr">Medical Reminder</string>
+    <string name="Emer">Emergency</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

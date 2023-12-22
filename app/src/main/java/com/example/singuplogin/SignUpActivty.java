@@ -38,7 +38,7 @@ private TextView loginRedirectText;
                 String user = signupEmail.getText().toString().trim();
                 String pass = signupPassword.getText().toString().trim();
                 if (user.isEmpty()) {
-                    signupEmail.setError(("Password cannot be ematy "));
+                    signupEmail.setError(("Password cannot be empty "));
                 } else {
                     auth.createUserWithEmailAndPassword(user, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
