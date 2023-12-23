@@ -1,22 +1,16 @@
 package com.example.singuplogin;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
-
-import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
 
         bottomNavigationView = findViewById(R.id.bt_nav);
         bottomNavigationView.setOnNavigationItemSelectedListener(navigListener);
+
+        // Set the initial fragment when the activity is created
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.addplaceholer, new MedicalDirectoryFragment())
+                .commit();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navigListener =
@@ -59,5 +58,3 @@ public class MainActivity extends AppCompatActivity {
                 }
             };
 }
-
-
