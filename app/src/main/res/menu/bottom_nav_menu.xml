@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rmed"
+        android:icon="@drawable/rmedical"
+        android:title="@string/Rm" />
+    <item
+        android:id="@+id/addpeep"
+        android:icon="@drawable/addpeep"
+        android:title="@string/Peep" />
+    <item
+        android:id="@+id/listpeep"
+        android:icon="@drawable/callpeep"
+        android:title="@string/CPeep" />
+    <item
+        android:id="@+id/remind"
+        android:icon="@drawable/remind"
+        android:title="@string/Mr" />
+    <item
+        android:id="@+id/emer"
+        android:icon="@drawable/emergency"
+        android:title="@string/Emer" />
+
+</menu>
